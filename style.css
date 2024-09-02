@@ -33,6 +33,7 @@ body {
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .nav-item {
@@ -46,6 +47,7 @@ body {
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 .card {
   padding: 0.5rem;
@@ -64,6 +66,10 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   height: 20px;
+}
+
+.more {
+  background-image: url("./images/view-more.png");
 }
 
 footer {
