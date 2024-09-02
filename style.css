@@ -89,6 +89,13 @@ body {
   background: rgba(255, 255, 255, 0.55);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
   border: none;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.about-img {
+  max-width: 500px;
+  border-radius: 10px;
 }
 
 footer {
