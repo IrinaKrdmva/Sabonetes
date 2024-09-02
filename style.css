@@ -69,7 +69,18 @@ body {
 }
 
 .more {
+  height: 30px;
+  width: 60px;
   background-image: url("./images/view-more.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border: 0;
+}
+
+.more:hover {
+  background-image: url("./images/view-more2.png");
 }
 
 footer {
