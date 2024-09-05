@@ -98,6 +98,22 @@ body {
   border-radius: 10px;
 }
 
+.voltar-atras {
+  height: 60px;
+  width: 60px;
+  background-image: url("./images/back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+}
+
+.voltar-atras:hover {
+  background-image: url("./images/back2.png");
+}
+
 footer {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
