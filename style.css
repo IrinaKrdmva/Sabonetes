@@ -25,7 +25,8 @@ body {
 }
 
 .titulo_principal,
-.card-title {
+.card-title,
+.titulo_contactos {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
@@ -98,7 +99,7 @@ body {
   border-radius: 10px;
 }
 
-.voltar-atras {
+.back {
   height: 60px;
   width: 60px;
   background-image: url("./images/back.png");
@@ -110,7 +111,7 @@ body {
   border-radius: 50%;
 }
 
-.voltar-atras:hover {
+.back:hover {
   background-image: url("./images/back2.png");
 }
 
