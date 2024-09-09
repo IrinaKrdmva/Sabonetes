@@ -115,6 +115,20 @@ body {
   background-image: url("./images/back2.png");
 }
 
+button.cart {
+  height: 60px;
+  width: 60px;
+  background-image: url("./images/shopping-cart.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.cart:hover {
+  background-image: url("./images/shopping-cart2.png");
+}
 footer {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
