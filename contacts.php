@@ -1,10 +1,10 @@
 <?php
 
-$pagina_atual = "home";
+$pagina_atual = "contacts";
 
 require("components/header.php");
 
-require("mains/home_main.php");
+require("mains/contacts_main.php");
 
 require("components/footer.php");
 

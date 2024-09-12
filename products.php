@@ -1,10 +1,10 @@
 <?php
 
-$pagina_atual = "home";
+$pagina_atual = "products";
 
 require("components/header.php");
 
-require("mains/home_main.php");
+require("mains/products_main.php");
 
 require("components/footer.php");
 
