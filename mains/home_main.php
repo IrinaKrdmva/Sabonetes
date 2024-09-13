@@ -2,7 +2,7 @@
         <!--WELCOME MESSAGE AND IMAGE-->
         <div class="row mt-5 pt-5 welcome">
             <div class="col-12 mx-auto d-flex justify-content-center gap-5 flex-wrap">
-                <h5 class="welcome-text">Welcome to our website where all you soapy dreams come true XD</h5>
+                <h5 class="welcome-text"><?= getWelcomeHome(); ?></h5>
             </div>
         </div>
         <!--PRODUTOS EM DESTAQUE-->
